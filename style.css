@@ -1,0 +1,262 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Monaco;
+}
+
+a {
+	color: white;
+}
+
+
+#navbar > ul {
+	list-style-type: none;
+}
+
+#navbar li {
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+}
+
+#navbar a {
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	text-decoration: underline;
+}
+
+#claudia {
+	float: right;
+	margin: 0 50px;
+}
+
+#home {
+	text-align: center;
+	font-size: 120%;
+}
+
+#home img {
+	width: 100%;
+}
+
+#home div {
+	background: rgba(0,0,0,.70);
+	padding: 40px;
+	position: absolute;
+	bottom: -133px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-size: 140%;
+}
+
+
+#home button {
+	padding: 15px;
+	font-size: 125%;
+	border-radius: 10px;
+	font-family: Monaco;
+	background-color: #512581;
+	color: white;
+	border-color: black;
+	cursor: pointer;
+}
+
+
+#comic img {
+	width: 100%;
+}
+
+#comic div {
+	background: rgba(0,0,0,.80);
+	padding: 40px;
+	position: absolute;
+	bottom: -133px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-size: 140%;
+}
+
+p {
+	display: block;
+    -webkit-margin-before: 5em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#comic button {
+	padding: 15px;
+	font-size: 125%;
+	border-radius: 10px;
+	font-family: Monaco;
+	background-color: #512581;
+	color: white;
+	border-color: black;
+	font-size: 90%;
+	cursor: pointer;
+
+}
+
+
+#audio img {
+	width: 100%;
+}
+
+#audio div {
+	background: rgba(0,0,0,.65);
+	padding: 40px;
+	position: absolute;
+	bottom: -133px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-size: 150%;
+}
+
+#audio button {
+	padding: 15px;
+	font-size: 125%;
+	border-radius: 10px;
+	font-family: Monaco;
+	background-color: #CC8400;
+	color: white;
+	border-color: black;
+	font-size: 90%;
+	cursor: pointer;
+}
+
+#website img {
+	width: 100%;
+}
+
+#website div {
+	background: rgba(0,0,0,.80);
+	padding: 40px;
+	position: absolute;
+	bottom: -133px;
+	height: 100%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-size: 150%;
+}
+
+#website button {
+	padding: 15px;
+	font-size: 125%;
+	border-radius: 10px;
+	font-family: Monaco;
+	background-color: #0E4D92;
+	color: white;
+	border-color: black;
+	font-size: 90%;
+	cursor: pointer;
+}
+
+#video img {
+	width: 100%;
+}
+
+#video div {
+	background: rgba(0,0,0,.65);
+	padding: 40px;
+	position: absolute;
+	bottom: -133px;
+	height: 100%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-size: 150%;
+}
+
+#video button {
+	padding: 15px;
+	font-size: 125%;
+	border-radius: 10px;
+	font-family: Monaco;
+	background-color: #ED2939;
+	color: white;
+	border-color: black;
+	font-size: 90%;
+	cursor: pointer;
+}
+
+
+#animation img {
+	width: 100%;
+}
+
+#animation div {
+	background: rgba(0,0,0,.65);
+	padding: 40px;
+	position: absolute;
+	bottom: -133px;
+	height: 100%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-size: 145%;
+}
+
+#animation button {
+	padding: 15px;
+	font-size: 125%;
+	border-radius: 10px;
+	font-family: Monaco;
+	background-color: gray;
+	color: white;
+	border-color: black;
+	font-size: 90%;
+	cursor: pointer;
+}
+
+
+#arrow-right{
+	position: relative;
+}
+.arrow-position-right{
+	width: 70px;
+	position: fixed;
+	left: 90%;
+	bottom: 0;
+}
+
+
+#arrow-left{
+	position: relative;
+}
+.arrow-position-left{
+	width: 70px;
+	position: fixed;
+	left: 5%;
+	bottom: 0;
+}
+
+
+
